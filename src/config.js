@@ -16,7 +16,7 @@ export const SITE = {
   deals: 'plots, villas, farm houses and flats',
 }
 // Leave name empty until confirmed; the page then shows only the designation.
-export const DIRECTOR = { name: '', role: 'Director, Rihanta Estates', photo: '/images/director.jpg' }
+export const DIRECTOR = { name: 'Pawan Jain', role: 'Director, Rihanta Estates', photo: '/images/director.jpg' }
 // Projects are hidden for now. Add real entries here to show the Projects section again:
 // { id, name, location, desc, image }
 export const PROJECTS = []
