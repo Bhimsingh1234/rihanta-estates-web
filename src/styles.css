@@ -52,3 +52,15 @@ input[aria-invalid=true]{border-color:#c62828}.check{display:flex;gap:.7rem}.che
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 .clist a{color:var(--p2);text-decoration:none}.clist a:hover{text-decoration:underline}
 .ftr .flinks a{display:block;color:#cfc9ee}
+.hero {
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(10, 15, 50, 0.55),
+      transparent
+    ),
+    url("/images/hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

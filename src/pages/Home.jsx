@@ -18,7 +18,7 @@ export default function Home() {
     <section className="hero">
       <div className="wrap hero-in">
         <p className="pill">Residential & investment plots</p>
-        <h1>Find the Right Plot for <span>Your Future</span></h1>
+        <h1>Find the Right Property for <span>Your Future</span></h1>
         <p className="sub">Residential &amp; Investment Property | Jaipur</p>
         <p className="lead">Explore residential and investment plot options and connect with our team for project information, pricing, and site visits.</p>
         <div className="row"><a href={SITE.phoneHref} className="btn btn-primary">Call Now</a><Link to="/#contact" className="btn btn-ghost">Enquire Now</Link></div>
@@ -28,6 +28,7 @@ export default function Home() {
     <section className="wrap services" aria-label="Buyer support">
       {services.map(([i, t, d]) => <div key={t} className="svc"><span className="ico" aria-hidden="true">{i}</span><h2>{t}</h2><p>{d}</p></div>)}
     </section>
+
 
     <section id="about" className="wrap pad about">
       <div>
@@ -47,10 +48,6 @@ export default function Home() {
       </section>
     )}
 
-    <section className="wrap pad">
-      <h2 className="center">How It Works</h2>
-      <ol className="steps">{steps.map(s => <li key={s}>{s}</li>)}</ol>
-    </section>
 
     <section id="contact" className="wrap pad contact">
       <div>
